@@ -26,14 +26,13 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 230px;
+    /* padding-right: 230px; */
 
 }
 
 .hero-content{
   max-width: 525px;
-  text-align: end;
+  margin-left: auto;
 }
 
 .hero-content h1{
@@ -251,9 +250,13 @@ body{
     padding: 21px 0px 21px 21px;
     font-size: 18px;
     background-color:#151414;
+    color: #ffffff;
     border: 2px solid #f3f3f3;
     border-radius: 8px;
     margin-bottom: 16px;
+}
+.media-box .subscribe input::placeholder{
+    color: #f3f3f3;
 }
 .media-box .subscribe button{
     color: #F15B22;
