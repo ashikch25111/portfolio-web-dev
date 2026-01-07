@@ -1,3 +1,5 @@
+ 
+/* multiple selector */
 *{
     margin:0;
     padding: 0;
@@ -6,6 +8,13 @@ body{
      font-family: "Work Sans", sans-serif;
      font-optical-sizing: auto;
 }
+
+#failure, #myplan{
+    margin-top: 130px;
+}
+
+/* main style */
+
 .hero{
     width: 1600px;
     height: 100vh;
@@ -52,9 +61,6 @@ body{
     cursor: pointer;
 }
 
-#failure{
-    margin-top: 131px;
-}
 
 .failure-container{
     max-width: 1072px;
@@ -96,4 +102,166 @@ body{
 
 .failure-content ul li i{
     color: #16d887;
+}
+
+.plan-container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+.plan-list-box{
+    text-align: center;
+}
+.plan-list-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 55px;
+}
+.skill-card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill-card img{
+    height: 92px;
+    width: 92px;
+    margin-bottom: 18px;
+}
+
+.skill-card h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:#151414;
+    margin-bottom: 16px;
+}
+
+.skill-card p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+
+}
+
+.photo-box{
+    width: 1141px;
+    height: 300px;
+    margin: 130px auto;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+
+    background-image:    
+         url(images/gradient2.png),
+         url(images/watch.png);
+
+    background-size:
+     cover, cover;
+
+    background-repeat: 
+    no-repeat,
+    no-repeat; 
+
+    background-position: 
+    center, right center;   
+    
+
+}
+.photo-content{
+    position: relative;
+    max-width: 559px;
+    padding: 60px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+
+.photo-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    color:#ffffff;
+    margin-bottom: 24px;
+}
+.photo-box button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: #ffffff;
+    padding: 21px 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+.media-container{
+    width: 100%;
+    background-color:#151414;
+    padding: 130px 0px ;
+}
+
+.media-box{
+     width: 1141px;
+     display: flex;
+     justify-content: space-between;
+     margin: 0px auto;
+}
+
+.media-box .future{
+    max-width: 485px;
+}
+.media-box .future h2{
+    font-size: 45px;
+    font-weight: bold;
+    color:#ffffff;
+    margin-bottom: 16px;
+}
+
+.media-box .future .text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+.media-box .future .info{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+.media-box .future .img{
+    display: flex;
+    gap:18px;
+}
+.media-box .future img{
+    height: 46px;
+    width: 46px;
+    margin-bottom: 16px;
+}
+.media-box .subscribe{
+    max-width: 325px;
+}
+
+.media-box .subscribe h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+    color: #ffffff;
+}
+
+.media-box .subscribe input{
+    width: 100%;
+    padding: 21px 0px 21px 21px;
+    font-size: 18px;
+    background-color:#151414;
+    border: 2px solid #f3f3f3;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.media-box .subscribe button{
+    color: #F15B22;
+    background-color: #ffffff;
+    font-size:20px;
+    font-weight: 600;
+    padding:20px 36px;
+    border: none;
+    border-radius: 8px;
+
 }
