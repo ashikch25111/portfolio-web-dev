@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+     font-family: "Work Sans", sans-serif;
+     font-optical-sizing: auto;
+}
+.hero{
+    width: 1600px;
+    height: 808px;
+    margin: 0 auto;
+     background: url(images/banner/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 230px;
+
+}
+
+.hero-content{
+  max-width: 525px;
+  text-align: end;
+}
+
+.hero-content h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.hero-content .btn{
+    padding: 21px 25px;
+    background-color: #F15B22;
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
