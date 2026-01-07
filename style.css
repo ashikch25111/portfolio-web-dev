@@ -51,3 +51,49 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+#failure{
+    margin-top: 131px;
+}
+
+.failure-container{
+    max-width: 1072px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 87px;
+}
+
+.failure-content{
+    max-width: 416px;
+    margin-top: 240px;
+}
+.failure-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-content ul {
+    list-style-type: none;
+}
+
+.failure-content ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failure-content ul li i{
+    color: #16d887;
+}
