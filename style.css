@@ -17,9 +17,8 @@ body{
 /* main style */
 
 .hero{
-    width: 1600px;
-    height: 100vh;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
      background: url(images/banner/banner1.png);
     background-size: cover;
     background-position: center;
@@ -27,13 +26,20 @@ body{
 
     display: flex;
     align-items: center;
-    /* padding-right: 230px; */
+    padding-right: 230px;
 
 }
-
+.hero-container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
 .hero-content{
   max-width: 525px;
-  margin-left: auto;
+  text-align: right;
 }
 
 .hero-content h1{
