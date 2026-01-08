@@ -67,6 +67,17 @@ body{
     cursor: pointer;
 }
 
+.hero-content .btn:hover{
+    padding: 21px 25px;
+    background-color: #ffffff;
+    color:#f15b22;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 .failure-container{
     max-width: 1072px;
@@ -273,5 +284,15 @@ body{
     padding:20px 36px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
 
+.media-box .subscribe button:hover{
+     color: #ffffff;
+    background-color: #f15b22;
+    font-size:20px;
+    font-weight: 600;
+    padding:20px 36px;
+    border: 1px solid #F15B22;
+    border-radius: 8px;
 }
